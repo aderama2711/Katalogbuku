@@ -37,12 +37,12 @@ public class Book implements Serializable {
         return book_genre;
     }
 
-    public void setBook_genre(int published_year) {
-        this.published_year = published_year;
-    }
-
     public void setBook_genre(String book_genre) {
         this.book_genre = book_genre;
+    }
+
+    public void setBook_genre(int published_year) {
+        this.published_year = published_year;
     }
 
     public int getPublished_year() {
